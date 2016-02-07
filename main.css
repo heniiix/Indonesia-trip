@@ -1,0 +1,145 @@
+/*formes*/
+
+body {
+  background: white;
+}
+
+header {
+  background: black;
+  padding: 40px;
+  color: white;
+  
+}
+
+.fullHistoire {
+  padding: 60px 0 0 0;
+}
+
+.video {
+  background: red;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding: 25px;
+}
+
+/*paragraphe*/
+
+.histoire1 {
+  padding: 40px;
+}
+
+.histoire2 {
+  padding: 40px 5px;
+}
+
+.histoire3 {
+  padding: 40px;
+}
+
+.histoire4 {
+  padding: 40px;
+}
+
+.histoire5 {
+  padding: 40px;
+}
+
+.histoire6 {
+  padding: 25px;
+}
+
+.histoire7 {
+  padding: 20px;
+}
+
+.histoire8 {
+  padding: 25px;
+}
+
+/*image*/
+
+.image {
+  padding: 45px;
+}
+
+figure {
+   width: 400px;
+	height: 300px;
+}
+
+#image_realite_du_reve {
+  padding: 150px 70px;
+}
+
+#image_stresse-depression {
+  padding: 100px 100px;
+}
+
+#image_reve_a_traver_un_autre {
+  padding: 110px 100px;
+}
+
+/*texte*/
+p {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 65px;
+}
+
+h2 {
+  padding: 0 0 10px 0;
+  font-family: 'Indie Flower', cursive;
+  color: red;
+  
+}
+
+span {
+  font-family: 'Lora', serif;
+  font-size: 20px;
+}
+
+header p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+}
+
+.citation p {
+  font-family: 'Great Vibes', cursive;
+  font-size: 50px;
+  padding: 60px;
+}
+
+#video {
+  color: white;
+  background-color: green;
+  border-radius: 9px;
+  display: inline;
+  padding: 15px
+}
+
+/*video*/
+
+.videocontainer {
+  width: 100%;
+  text-align: center;
+  background-color: #1f2c38;
+  padding: 100px;
+}
+
+/*image effect*/
+.image figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
